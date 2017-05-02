@@ -4,7 +4,7 @@
 #
 Name     : numactl
 Version  : 2.0.11
-Release  : 15
+Release  : 16
 URL      : ftp://oss.sgi.com/www/projects/libnuma/download/numactl-2.0.11.tar.gz
 Source0  : ftp://oss.sgi.com/www/projects/libnuma/download/numactl-2.0.11.tar.gz
 Summary  : No detailed summary available
