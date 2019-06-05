@@ -4,7 +4,7 @@
 #
 Name     : numactl
 Version  : 2.0.12
-Release  : 19
+Release  : 20
 URL      : https://github.com/numactl/numactl/releases/download/v2.0.12/numactl-2.0.12.tar.gz
 Source0  : https://github.com/numactl/numactl/releases/download/v2.0.12/numactl-2.0.12.tar.gz
 Summary  : NUMA policy library
