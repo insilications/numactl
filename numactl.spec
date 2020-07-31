@@ -5,7 +5,7 @@
 %define keepstatic 1
 Name     : numactl
 Version  : 2.0.13
-Release  : 23
+Release  : 24
 URL      : file:///insilications/build/clearlinux/packages/numactl/numactl-v2.0.13.zip
 Source0  : file:///insilications/build/clearlinux/packages/numactl/numactl-v2.0.13.zip
 Summary  : libnuma libraries
@@ -80,7 +80,7 @@ unset http_proxy
 unset https_proxy
 unset no_proxy
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1595847732
+export SOURCE_DATE_EPOCH=1596176771
 unset LD_AS_NEEDED
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
@@ -126,6 +126,7 @@ export LDFLAGS="${LDFLAGS_USE}"
 %autogen  --enable-shared --enable-static
 make  %{?_smp_mflags}  V=1 VERBOSE=1
 
+
 %check
 export LANG=C.UTF-8
 unset http_proxy
@@ -134,7 +135,7 @@ unset no_proxy
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1595847732
+export SOURCE_DATE_EPOCH=1596176771
 rm -rf %{buildroot}
 %make_install
 ## Remove excluded files
