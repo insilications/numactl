@@ -1,10 +1,14 @@
 libnuma.so.1:copy_bitmask_to_bitmask
 libnuma.so.1:copy_bitmask_to_nodemask
 libnuma.so.1:copy_nodemask_to_bitmask
+libnuma.so.1:get_mempolicy
 libnuma.so.1:libnuma_1.1
 libnuma.so.1:libnuma_1.2
 libnuma.so.1:libnuma_1.3
 libnuma.so.1:libnuma_1.4
+libnuma.so.1:mbind
+libnuma.so.1:migrate_pages
+libnuma.so.1:move_pages
 libnuma.so.1:numa_alloc
 libnuma.so.1:numa_alloc_interleaved
 libnuma.so.1:numa_alloc_interleaved_subset
@@ -25,6 +29,7 @@ libnuma.so.1:numa_bitmask_setall
 libnuma.so.1:numa_bitmask_setbit
 libnuma.so.1:numa_bitmask_weight
 libnuma.so.1:numa_distance
+libnuma.so.1:numa_error
 libnuma.so.1:numa_free
 libnuma.so.1:numa_get_interleave_mask
 libnuma.so.1:numa_get_interleave_node
@@ -72,3 +77,5 @@ libnuma.so.1:numa_set_strict
 libnuma.so.1:numa_setlocal_memory
 libnuma.so.1:numa_tonode_memory
 libnuma.so.1:numa_tonodemask_memory
+libnuma.so.1:numa_warn
+libnuma.so.1:set_mempolicy
