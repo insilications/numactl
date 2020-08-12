@@ -1,5 +1,5 @@
 PKG_NAME := numactl
-URL = https://github.com/numactl/numactl/archive/v2.0.13.tar.gz
+URL = https://github.com/numactl/numactl.git
 ARCHIVES = 
 
 include ../common/Makefile.common

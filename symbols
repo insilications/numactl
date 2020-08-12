@@ -39,6 +39,7 @@ libnuma.so.1:numa_move_pages
 libnuma.so.1:numa_node_of_cpu
 libnuma.so.1:numa_node_size
 libnuma.so.1:numa_node_size64
+libnuma.so.1:numa_node_to_cpu_update
 libnuma.so.1:numa_node_to_cpus
 libnuma.so.1:numa_num_configured_cpus
 libnuma.so.1:numa_num_configured_nodes
