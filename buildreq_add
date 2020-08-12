@@ -1,6 +1,9 @@
 # This file contains additional build requirements that did not get
 # picked up automatically. One name per line, no whitespace.
 util-linux
+util-linux-dev
+util-linux-staticdev
 gcc-dev
 glibc-dev
+glibc-staticdev
 findutils
